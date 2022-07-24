@@ -321,7 +321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!120 &275654327
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -441,7 +441,7 @@ MonoBehaviour:
         Latitude: 43.64594351442
         Longitude: -79.39205338266508
         Altitude: 0
-        AltitudeMode: 0
+        AltitudeMode: 3
         Label: 
       OverrideAltitudeData:
         OverrideAltitude: 1
@@ -891,72 +891,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd8a1ea49b1bb463bb0f799cae30cdcb, type: 3}
---- !u!1 &682497362
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 682497364}
-  - component: {fileID: 682497363}
-  m_Layer: 0
-  m_Name: GPS Locations
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &682497363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682497362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c56c9eb6d14e4854b316f59e1296fb4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Locations:
-  - LocationInput:
-      LocationInputType: 0
-      LocationData: {fileID: 0}
-      Location:
-        Latitude: 0
-        Longitude: 0
-        Altitude: 0
-        AltitudeMode: 0
-        Label: 
-      OverrideAltitudeData:
-        OverrideAltitude: 0
-        Altitude: 0
-        AltitudeMode: 0
-  PlacementOptions:
-    MovementSmoothing: 0.05
-    MaxNumberOfLocationUpdates: 4
-    UseMovingAverage: 0
-    HideObjectUntilItIsPlaced: 1
-    ShowObjectAfterThisManyUpdates: 1
-  Prefab: {fileID: 0}
-  DebugMode: 0
---- !u!4 &682497364
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682497362}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.108, z: 0.89}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &715159296 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4893690304070136, guid: fd8a1ea49b1bb463bb0f799cae30cdcb, type: 3}
