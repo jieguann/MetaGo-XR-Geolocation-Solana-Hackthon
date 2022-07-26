@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.allart.solana_wallet": "file:C:/Users/42910/Desktop/XR-Geolocation-Solana-Hackthon/unity-solana-wallet-main",
+    "com.allart.solana_wallet": "file:D:/Projects/XR-Geolocation-Test/unity-solana-wallet-main",
     "com.unity.collab-proxy": "1.15.17",
     "com.unity.ide.rider": "3.0.14",
     "com.unity.ide.visualstudio": "2.0.15",
