@@ -355,6 +355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ARLocationInfo
       objectReference: {fileID: 0}
+    - target: {fileID: 1191026261074352, guid: f6233caea7405cd4089432ff4bf85915, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4553764845446052, guid: f6233caea7405cd4089432ff4bf85915, type: 3}
       propertyPath: m_RootOrder
       value: 3
