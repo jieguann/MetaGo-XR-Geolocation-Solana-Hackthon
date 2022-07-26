@@ -14,6 +14,8 @@ namespace AllArt.Solana.Example
     [RequireComponent(typeof(TxtLoader))]
     public class LoginScreen : SimpleScreen
     {
+        public GetSOL getSol;
+
         public TMP_InputField _passwordInputField;
         public TextMeshProUGUI _passwordText;
         public Button _createNewWalletBtn;
@@ -92,6 +94,9 @@ namespace AllArt.Solana.Example
                 MainThreadDispatcher.Instance().Enqueue(() => { _simpleWallet.StartWebSocketConnection(); }); 
                 manager.ShowScreen(this, "wallet_screen");
                 this.gameObject.SetActive(false);
+
+                getSol.UpdateWalletBalanceDisplay();
+                
             }
             else
             {

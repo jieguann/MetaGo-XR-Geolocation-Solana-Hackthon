@@ -20,6 +20,7 @@ namespace AllArt.Solana.Example
     public class WalletScreen : SimpleScreen
     {
         public TextMeshProUGUI lamports;
+        
         public Button refresh_btn;
         public Button send_btn;
         public Button receive_btn;
@@ -159,7 +160,8 @@ namespace AllArt.Solana.Example
             if (SimpleWallet.instance.wallet is null) return;
 
             double sol = await SimpleWallet.instance.GetSolAmmount(SimpleWallet.instance.wallet.GetAccount(0));
-            MainThreadDispatcher.Instance().Enqueue(() => { lamports.text = $"{sol}"; });
+            MainThreadDispatcher.Instance().Enqueue(() => { lamports.text = $"{sol}";});
+
         }
 
         private void DisconnectToWebSocket()
