@@ -17,6 +17,6 @@ public class GetSOL : MonoBehaviour
         if (SimpleWallet.instance.wallet is null) return;
 
         double sol = await SimpleWallet.instance.GetSolAmmount(SimpleWallet.instance.wallet.GetAccount(0));
-        MainThreadDispatcher.Instance().Enqueue(() => { solText.text = $"{sol}"; });
+        MainThreadDispatcher.Instance().Enqueue(() => { solText.text = "SOL: "+ $"{sol}"; });
     }
 }
