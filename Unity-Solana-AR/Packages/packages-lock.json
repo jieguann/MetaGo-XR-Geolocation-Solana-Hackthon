@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "com.allart.solana_wallet": {
-      "version": "file:D:/Projects/XR-Geolocation-Test/unity-solana-wallet-main",
+      "version": "https://github.com/allartprotocol/unity-solana-wallet.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0"
-      }
+      },
+      "hash": "a9928ac8e35f97f43721e439a29f667972cfb30a"
     },
     "com.unity.burst": {
       "version": "1.6.5",
