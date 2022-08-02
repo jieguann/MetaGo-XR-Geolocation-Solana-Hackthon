@@ -1,7 +1,7 @@
 # XR-Geolocation--Solana
 
 Test Scene
-AR-Solana-Project > Scene > ARWalletTest
+Unity-Solana-AR > AR-Solana-Project > Scene > ARWalletTest
 
 
 
