@@ -46,7 +46,7 @@ public class Build : MonoBehaviour
 
         EditorUserBuildSettings.androidBuildSystem = AndroidBuildSystem.Gradle;
 
-        var options = BuildOptions.AcceptExternalModificationsToPlayer;
+        var options = BuildOptions.AllowDebugging;
         var report = BuildPipeline.BuildPlayer(
             GetEnabledScenes(),
             apkPath,
