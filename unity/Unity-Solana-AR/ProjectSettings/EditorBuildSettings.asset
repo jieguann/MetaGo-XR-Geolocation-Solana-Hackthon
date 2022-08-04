@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AR-Solana-Project/Scene/UIPage.unity
+    guid: ad79712688663dc4cbd4855f39b613a3
+  - enabled: 1
+    path: Assets/AR-Solana-Project/Scene/ARView.unity
+    guid: 1ad41bb262137c44bb608d851cf536f5
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 24a93adc0deb8f24f854f348c7243b24, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 98677aeb37c63fe4f8307d94aa8da594, type: 2}
