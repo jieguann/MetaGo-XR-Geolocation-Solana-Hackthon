@@ -16,7 +16,7 @@ public class RuntimeImportBehaviour : MonoBehaviour
     /// Root GameObject of the imported glTF model.
     /// </summary>
     private GameObject _model;
-
+    public string modelURL;
     /// <summary>
     /// Unity callback that is invoked before the first frame.
     /// Create the glTF import task and set up callbacks for
@@ -29,7 +29,7 @@ public class RuntimeImportBehaviour : MonoBehaviour
         // (e.g. "C:/Users/Joe/Desktop/piggleston.glb"), or a byte[]
         // array containing the raw byte content of the file.
         _task = RuntimeGltfImporter.GetImportTask(
-            "https://awesomesaucelabs.github.io/piglet-webgl-demo/StreamingAssets/piggleston.glb");
+            modelURL);
         _task.OnProgress = OnProgress;
         _task.OnCompleted = OnComplete;
     }
