@@ -427,6 +427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 943963484}
   - component: {fileID: 943963483}
+  - component: {fileID: 943963485}
   m_Layer: 0
   m_Name: Importer
   m_TagString: Untagged
@@ -465,6 +466,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &943963485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943963482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24b6519699ce8a4f90ea1fbb1186753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outputURL: 
+  URL: http://localhost:3000/characters
+  importer: {fileID: 943963483}
 --- !u!1 &1395608130
 GameObject:
   m_ObjectHideFlags: 0
