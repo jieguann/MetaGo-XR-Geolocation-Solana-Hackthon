@@ -17,6 +17,8 @@ public class RuntimeImportBehaviour : MonoBehaviour
     /// </summary>
     private GameObject _model;
     public string modelURL;
+    public float scale;
+    public GameObject textLoading;
     /// <summary>
     /// Unity callback that is invoked before the first frame.
     /// Create the glTF import task and set up callbacks for
@@ -44,6 +46,9 @@ public class RuntimeImportBehaviour : MonoBehaviour
     private void OnComplete(GameObject importedModel)
     {
         _model = importedModel;
+        _model.transform.position = transform.position;
+        _model.transform.localScale = new Vector3(scale,scale,scale);
+        Destroy(textLoading);
         Debug.Log("Success!");
     }
 
@@ -80,7 +85,6 @@ public class RuntimeImportBehaviour : MonoBehaviour
         _task.MoveNext();
 
         // spin model about y-axis
-        if (_model != null)
-            _model.transform.Rotate(0, 1, 0);
+        
     }
 }
