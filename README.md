@@ -1,5 +1,11 @@
 # MetaGO | A XR Geolocation Game powered by Solana
 
+
+
+https://user-images.githubusercontent.com/60665347/197358555-da139583-3a2b-407b-942b-2c2cb8ba8994.mp4
+
+
+
 ## Link to UI Design
 https://www.figma.com/file/Qll185Ty9hx0jGYynIxPUS/ARGolf?node-id=0%3A1
 
